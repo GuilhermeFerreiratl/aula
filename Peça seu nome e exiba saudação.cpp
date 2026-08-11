@@ -1,4 +1,4 @@
-// 1.Nome:peça um nome e exiba uma saudação
+// 1.Nome:peÃ§a um nome e exiba uma saudaÃ§Ã£o
 #include<stdio.h>>
 
 int x= 10;
