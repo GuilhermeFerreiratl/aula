@@ -6,7 +6,7 @@ int x= 10;
 char nome[35];
 char cidade[35];
 char time[35];
-char idade[35];
+int idade;
 int a;
 int y = 2026;
 int resultado;
@@ -29,7 +29,7 @@ scanf("%s", &cidade);
  printf("qual a sua idade? \n");
 scanf("%d", &a);
 
-printf("%s e uma boa idade! " , idade);
+printf("%d e uma boa idade! \n " , a);
 
 printf("qual time voce torce? \n");
 scanf("%s", &time);
