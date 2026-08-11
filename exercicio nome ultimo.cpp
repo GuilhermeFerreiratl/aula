@@ -1,4 +1,4 @@
-// 1.Nome:peça um nome e exiba uma saudação
+// 1.Nome:peÃ§a um nome e exiba uma saudaÃ§Ã£o
 #include<stdio.h>>
 
 int x= 10;
@@ -7,8 +7,8 @@ char nome[35];
 char cidade[35];
 char time[35];
 char idade[35];
-int x;
-int y;
+int a;
+int y = 2026;
 int resultado;
 
 
@@ -27,21 +27,19 @@ scanf("%s", &cidade);
  printf("%s e uma bela cidade! \n" , cidade);
  printf("seja bem vindo %s de %s! \n" , nome , cidade);
  printf("qual a sua idade? \n");
-scanf("%s", &idade);
+scanf("%d", &a);
 
 printf("%s e uma boa idade! " , idade);
 
 printf("qual time voce torce? \n");
 scanf("%s", &time);
-printf("%s é o melhor time! \n", time);
+printf("%s e o melhor time! \n", time);
 
-printf("Digite o primeiro valor");
-	  scanf("%d", &x);
+
 	  
-	  printf("Digite o segundo valor");
-	  scanf("%d", &y);
+
 	  
-resultado = x - y ;
+resultado = y - a ;
 printf("voce nasceu em %d ", resultado);
 
 
