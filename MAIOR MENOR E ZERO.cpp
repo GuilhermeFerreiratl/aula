@@ -4,7 +4,7 @@ int palpite;
 
 int main (){
 	printf ("Qual valor deseja saber :");
-	scanf("%d", &palpite);
+	scanf(" %d", &palpite);
 	
 	if(palpite > 0)
 	{printf("MAIOR");
