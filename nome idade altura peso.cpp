@@ -29,5 +29,5 @@ scanf(" %d", &peso);
 	printf (" sua altura e %.2f  \n", altura);
     printf (" seu peso e %d \n", peso);
 	
-
+ return 0;
  }
