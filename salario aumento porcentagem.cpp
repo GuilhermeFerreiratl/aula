@@ -21,5 +21,5 @@ u = (w + x);
 	printf ("%d salario com aumento \n", u);
     printf ("%d salario sem aumento \n", x);
 
-
+return 0;
  }
