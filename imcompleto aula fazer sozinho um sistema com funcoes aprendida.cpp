@@ -7,6 +7,11 @@ int cartao;
 float valor;
 float x;
 int dim = 10;
+int debito;
+int credito;
+int pix;
+
+
 
 
 int main() {
@@ -54,11 +59,12 @@ switch (dim) {
 
 }
 }
- dim  = (numero);
- dim  = ((numero/10)+numero);
- dim = (numero - (numero/10);
+ debito  = (numero);
+ credito  = ((numero/10)+numero);
+ pix = (numero - (numero/10));
 
-
+if (dim = 1) { printf (" seu maior numero e %d", debito);
+ }
 
 
 
