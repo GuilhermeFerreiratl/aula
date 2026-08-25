@@ -5,7 +5,7 @@ int x= 10;
 
 char nome[35];
 char cidade[35];
-char idade[35];
+int idade[35];
 
 int main (){
 
