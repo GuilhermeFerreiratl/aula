@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-float numero;
+float total;
 char nome[50]; 
 float valor;   
 float x;     
@@ -21,8 +21,8 @@ int main() {
     printf("Digite o valor do produto: ");
     scanf("%f", &x); 
 
-    numero = (x * valor);
-    printf("Total: %.2f \n\n", numero);
+    total = (x * valor);
+    printf("Total: %.2f \n\n", total);
 
     printf("Forma de pagamento?\n");
     printf("1 = Debito\n");
@@ -32,9 +32,9 @@ int main() {
     scanf("%d", &dim);
 
    
-    debito = numero;
-    credito = numero + (numero * 0.10);
-    pix = numero - (numero * 0.10);
+    debito = total;
+    credito = total + (total * 0.10);
+    pix = total - (total * 0.10);
 
     printf("\n--- Recibo ---\n");
     switch (dim) {
